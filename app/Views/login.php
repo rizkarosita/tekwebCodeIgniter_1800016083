@@ -80,9 +80,9 @@
                     if ( $cek_password <> $password){
                     echo"<script> alert('Kata Sandi Salah') </script>";
                     } else {
-                    echo"<script>document.location.href='creative.php'</script>";
+                      echo"<script> document.location.href='user_login'</script>";
                     }
-                } else {
+                    } else {
                     echo"<script> alert('Username tidak terdaftar') </script>";
                   }
                 }

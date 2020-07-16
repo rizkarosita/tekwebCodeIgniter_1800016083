@@ -7,11 +7,12 @@ use App\Models\my_user;
 class User extends BaseController
 {
 	
-	public function index(){
+	public function index()
+	{
 		$data = [
-			'title' => 'Form Login',
-			'tampil' => 'login',
-		];
+				'title' => 'Form Login',
+				'tampil' => 'login',
+			];
 		echo view('tamplates/wrapper',$data);
 	}
 	public function register(){

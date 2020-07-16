@@ -8,5 +8,4 @@ class my_user extends Model{
 	protected $table = 'user';
 	protected $allowedFields = ['email','password','firstname','lastname','date_created','date_updated'];
 }
-
 ?>
